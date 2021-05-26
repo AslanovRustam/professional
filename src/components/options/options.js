@@ -21,50 +21,87 @@ export default function Options() {
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
-    nextArrow: <RightArrow className={s.rightButton} />,
-    prevArrow: <LeftArrow className={s.leftButton} />,
+    // nextArrow: <RightArrow className={s.rightButton} />,
+    // prevArrow: <LeftArrow className={s.leftButton} />,
   };
 
   return (
     <div className={s.wrapper}>
-      <Slider {...settings}>
-        <div className={s.slidesItem}>
-          <img className={s.image} src={SliderImage1} alt="SliderImage1"></img>
-          <p className={s.slideText}>Sales Agent</p>
-        </div>
-        <div className={s.slidesItem}>
-          <img className={s.image} src={SliderImage2} alt="SliderImage2"></img>
-          <p className={s.slideText}>Сity Business Owner</p>
-        </div>
-        <div className={s.slidesItem}>
-          <img className={s.image} src={SliderImage3} alt="SliderImage3"></img>
-          <p className={s.slideText}>Tutor</p>
-        </div>
-        <div className={s.slidesItem}>
-          <img className={s.image} src={SliderImage4} alt="SliderImage4"></img>
-          <p className={s.slideText}>Financial Advisor</p>
-        </div>
-        <div className={s.slidesItem}>
-          <img className={s.image} src={SliderImage5} alt="SliderImage"></img>
-          <p className={s.slideText}>Personal Care Giver</p>
-        </div>
-        <div className={s.slidesItem}>
-          <img className={s.image} src={SliderImage6} alt="SliderImage6"></img>
-          <p className={s.slideText}>Yoga Trainer</p>
-        </div>
-        <div className={s.slidesItem}>
-          <img className={s.image} src={SliderImage7} alt="SliderImage7"></img>
-          <p className={s.slideText}>Nutritionist</p>
-        </div>
-        <div className={s.slidesItem}>
-          <img className={s.image} src={SliderImage8} alt="SliderImage8"></img>
-          <p className={s.slideText}>Astrologer</p>
-        </div>
-        <div className={s.slidesItem}>
-          <img className={s.image} src={SliderImage9} alt="SliderImage9"></img>
-          <p className={s.slideText}>Senior Care Director</p>
-        </div>
-      </Slider>
+      <h2 className={s.optionsTitle}>
+        Choose your profession for more details
+      </h2>
+      <div className={s.sliderContainer}>
+        <Slider {...settings}>
+          <div className={s.slidesItem}>
+            <img
+              className={s.image}
+              src={SliderImage1}
+              alt="SliderImage1"
+            ></img>
+            <p className={s.slideText}>Sales Agent</p>
+          </div>
+          <div className={s.slidesItem}>
+            <img
+              className={s.image}
+              src={SliderImage2}
+              alt="SliderImage2"
+            ></img>
+            <p className={s.slideText}>Сity Business Owner</p>
+          </div>
+          <div className={s.slidesItem}>
+            <img
+              className={s.image}
+              src={SliderImage3}
+              alt="SliderImage3"
+            ></img>
+            <p className={s.slideText}>Tutor</p>
+          </div>
+          <div className={s.slidesItem}>
+            <img
+              className={s.image}
+              src={SliderImage4}
+              alt="SliderImage4"
+            ></img>
+            <p className={s.slideText}>Financial Advisor</p>
+          </div>
+          <div className={s.slidesItem}>
+            <img className={s.image} src={SliderImage5} alt="SliderImage"></img>
+            <p className={s.slideText}>Personal Care Giver</p>
+          </div>
+          <div className={s.slidesItem}>
+            <img
+              className={s.image}
+              src={SliderImage6}
+              alt="SliderImage6"
+            ></img>
+            <p className={s.slideText}>Yoga Trainer</p>
+          </div>
+          <div className={s.slidesItem}>
+            <img
+              className={s.image}
+              src={SliderImage7}
+              alt="SliderImage7"
+            ></img>
+            <p className={s.slideText}>Nutritionist</p>
+          </div>
+          <div className={s.slidesItem}>
+            <img
+              className={s.image}
+              src={SliderImage8}
+              alt="SliderImage8"
+            ></img>
+            <p className={s.slideText}>Astrologer</p>
+          </div>
+          <div className={s.slidesItem}>
+            <img
+              className={s.image}
+              src={SliderImage9}
+              alt="SliderImage9"
+            ></img>
+            <p className={s.slideText}>Senior Care Director</p>
+          </div>
+        </Slider>
+      </div>
     </div>
   );
 }

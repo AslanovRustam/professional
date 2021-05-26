@@ -1,0 +1,200 @@
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 375px;
+  height: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  background-image: linear-gradient(
+      57.7deg,
+      #2c313d 13.12%,
+      rgba(56, 59, 66, 0) 76.27%
+    ),
+    url(../../images/bgImageMobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.mainContainer {
+  margin-top: 177px;
+}
+.mainSubContainer {
+  width: 375px;
+  padding-left: 16px;
+  padding-right: 32px;
+}
+.mainTitle {
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.mainInformation {
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.mainButton {
+  width: 192px;
+  height: 36px;
+  margin-bottom: 59px;
+  color: #ffffff;
+  background: linear-gradient(236.84deg, #9c8bea 1.49%, #544695 105.35%);
+  box-shadow: -4px 4px 15px rgba(129, 103, 227, 0.2);
+  border-radius: 50px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.mainButton:hover,
+.mainButton:focus {
+  background: linear-gradient(236.84deg, #b2f3b2 1.49%, #a6df0a 105.35%);
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .mainSection {
+    width: 100%;
+    flex-direction: row;
+
+    background-image: linear-gradient(
+        57.7deg,
+        #2c313d 13.12%,
+        rgba(56, 59, 66, 0) 76.27%
+      ),
+      url(../../images/bgImageDesktop.jpg);
+  }
+  .mainContainer {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .mainContainer {
+    width: 1280px;
+    /* margin-left: 0; */
+  }
+  .mainSection {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background-image: linear-gradient(
+        57.7deg,
+        #2c313d 13.12%,
+        rgba(56, 59, 66, 0) 76.27%
+      ),
+      url(../../images/bgImageDesktop.jpg);
+  }
+  .mainContainer {
+    margin-top: 104px;
+  }
+  .mainTitle {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .mainSubContainer {
+    width: 528px;
+    /* padding-left: 16px;
+  padding-right: 32px; */
+  }
+  .mainInformation {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .mainButton {
+    width: 204px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+/* .mainSection {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 375px;
+  height: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  background-image: linear-gradient(
+      57.7deg,
+      #2c313d 13.12%,
+      rgba(56, 59, 66, 0) 76.27%
+    ),
+    url(../../images/bgImageMobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.mainContainer {
+  padding-top: 173px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.mainTitle {
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.mainInformation {
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.mainButton {
+  width: 192px;
+  height: 36px;
+  margin-bottom: 59px;
+  color: #ffffff;
+  background: linear-gradient(236.84deg, #9c8bea 1.49%, #544695 105.35%);
+  box-shadow: -4px 4px 15px rgba(129, 103, 227, 0.2);
+  border-radius: 50px;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .mainSection {
+    width: 100%;
+    flex-direction: row;
+
+    background-image: linear-gradient(
+        57.7deg,
+        #2c313d 13.12%,
+        rgba(56, 59, 66, 0) 76.27%
+      ),
+      url(../../images/bgImageDesktop.jpg);
+  }
+  .mainContainer {
+    width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+  .mainContainer {
+    width: 416px;
+    margin-left: 0;
+  }
+
+} */

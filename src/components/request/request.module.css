@@ -1,0 +1,128 @@
+.requestSection {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+.formSection {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.formIcon {
+  width: 343px;
+  height: 246px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  /* margin: 24px; */
+}
+.formTitle {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4f586b;
+}
+.formInformation {
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f586b;
+}
+/* .formContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 27px;
+  width: 100%;
+}
+.formLabel {
+  width: 100%;
+}
+.inputStyles {
+  padding: 16px;
+  padding-left: 44px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04),
+    0px 4px 16px rgba(51, 51, 51, 0.08);
+  border: 0px solid transparent;
+  border-radius: 4px;
+  width: 100%;
+  color: rgba(17, 17, 17, 0.48);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+} */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formLabel {
+  display: block;
+  width: 100%;
+  border-bottom: 1px dashed rgba(129, 103, 227, 0.2);
+}
+.formInput {
+  width: 100%;
+  padding-left: 16px;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  border: none;
+  opacity: 0.5;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b92ab;
+}
+.formInput:hover,
+.formInput:focus {
+  color: #4f586b;
+  opacity: 1;
+}
+.formButton {
+  width: 192px;
+  height: 36px;
+  margin-bottom: 56px;
+  margin-top: 56px;
+  margin-left: 25%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  background: linear-gradient(236.84deg, #9c8bea 1.49%, #544695 105.35%);
+  box-shadow: -4px 4px 15px rgba(129, 103, 227, 0.2);
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.formButton:hover,
+.formButton:focus {
+  background: linear-gradient(236.84deg, #b2f3b2 1.49%, #a6df0a 105.35%);
+}
