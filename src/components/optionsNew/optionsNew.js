@@ -13,8 +13,8 @@ import Carousel from "react-elastic-carousel";
 
 const breakPoints = [
   { width: 1, itemsToShow: 2 },
-  { width: 375, itemsToShow: 2 },
-  { width: 768, itemsToShow: 3 },
+  { width: 375, itemsToShow: 4 },
+  { width: 768, itemsToShow: 6 },
   { width: 1200, itemsToShow: 6 },
 ];
 
@@ -26,74 +26,74 @@ export default function OptionsNew() {
       </h2>
       <div className={s.sliderContainer}>
         <Carousel breakPoints={breakPoints}>
-          <div className={s.slidesItem}>
+          <a href="#" className={s.slidesItem}>
             <img
               className={s.image}
               src={SliderImage1}
               alt="SliderImage1"
             ></img>
             <p className={s.slideText}>Sales Agent</p>
-          </div>
-          <div className={s.slidesItem}>
+          </a>
+          <a href="#" className={s.slidesItem}>
             <img
               className={s.image}
               src={SliderImage2}
               alt="SliderImage2"
             ></img>
             <p className={s.slideText}>Сity Business Owner</p>
-          </div>
-          <div className={s.slidesItem}>
+          </a>
+          <a href="#" className={s.slidesItem}>
             <img
               className={s.image}
               src={SliderImage3}
               alt="SliderImage3"
             ></img>
             <p className={s.slideText}>Tutor</p>
-          </div>
-          <div className={s.slidesItem}>
+          </a>
+          <a href="#" className={s.slidesItem}>
             <img
               className={s.image}
               src={SliderImage4}
               alt="SliderImage4"
             ></img>
             <p className={s.slideText}>Financial Advisor</p>
-          </div>
-          <div className={s.slidesItem}>
+          </a>
+          <a href="#" className={s.slidesItem}>
             <img className={s.image} src={SliderImage5} alt="SliderImage"></img>
             <p className={s.slideText}>Personal Care Giver</p>
-          </div>
-          <div className={s.slidesItem}>
+          </a>
+          <a href="#" className={s.slidesItem}>
             <img
               className={s.image}
               src={SliderImage6}
               alt="SliderImage6"
             ></img>
             <p className={s.slideText}>Yoga Trainer</p>
-          </div>
-          <div className={s.slidesItem}>
+          </a>
+          <a href="#" className={s.slidesItem}>
             <img
               className={s.image}
               src={SliderImage7}
               alt="SliderImage7"
             ></img>
             <p className={s.slideText}>Nutritionist</p>
-          </div>
-          <div className={s.slidesItem}>
+          </a>
+          <a href="#" className={s.slidesItem}>
             <img
               className={s.image}
               src={SliderImage8}
               alt="SliderImage8"
             ></img>
             <p className={s.slideText}>Astrologer</p>
-          </div>
-          <div className={s.slidesItem}>
+          </a>
+          <a href="#" className={s.slidesItem}>
             <img
               className={s.image}
               src={SliderImage9}
               alt="SliderImage9"
             ></img>
             <p className={s.slideText}>Senior Care Director</p>
-          </div>
+          </a>
         </Carousel>
       </div>
     </div>

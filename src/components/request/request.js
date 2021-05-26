@@ -40,7 +40,7 @@ export default function FormRequest() {
   };
 
   return (
-    <div className={s.requestSection}>
+    <div className={s.requestSection} id="formsubmit">
       <div className={s.formSection}>
         <img className={s.formIcon} src={Contact} alt="contact"></img>
         <h2 className={s.formTitle}>Request info</h2>
